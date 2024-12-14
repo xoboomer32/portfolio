@@ -1,0 +1,25 @@
+.sidebar{
+    //background: linear-gradient(to bottom right,#3370A6,#F2CF63,#F2A74B,#F2AD85,#F2A2A2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.profilePic{
+    background-image: url(../../image/cfca6b67ad1faac49e491de3f2a5ed83.png);
+    background-size: cover;
+}
+#home{
+    background-color: #3370A6;
+}
+#about{
+    background-color: #F2CF63;
+}
+#services{
+    background-color: #F2A74B;
+}
+#contact{
+    background-color: #F2AD85;
+}
+#c1,#c2,#c3,#c4{
+    background-color: azure;
+}

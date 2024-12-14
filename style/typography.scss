@@ -1,7 +1,18 @@
 @font-face {
     font-family: raleway;
-    src: url(../../font/Raleway-VariableFont_wght.ttf);
+    src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
 }
-.brand{
+.navitems{
+    list-style-type: none;
+    .navlink{
+        text-decoration: none;
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+}
+h1{
     font-family: raleway;
+    font-size: 60px;
 }
