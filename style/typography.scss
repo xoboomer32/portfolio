@@ -2,18 +2,10 @@
     font-family: raleway;
     src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
 }
-.navitems{
-    list-style-type: none;
-    .navlink{
-        text-decoration: none;
-        font-family: raleway;
-        font-size: 30px;
-        font-weight: bold;
-        color: white;
-    }
+.navlink{
+    font-size: 20px;
+    color: white;
 }
-.title{
-    font-family: raleway;
-    font-size: 60px;
-    font-weight: bold;
+.menuic{ 
+    @extend .navlink;
 }

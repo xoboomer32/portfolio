@@ -1,25 +1,32 @@
 .sidebar{
     //background: linear-gradient(to bottom right,#3370A6,#F2CF63,#F2A74B,#F2AD85,#F2A2A2);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.profilePic{
+.profile{
     background-image: url(../../image/Man\ icon\ business\ profile\ isolated\ vector\ image\ png.jpg);
     background-size: cover;
 }
-#home{
-    background-color: #06050D;
+.contentradius{
+    background-color: #D8D8D8;
+    // backdrop-filter: blur(40px);
+    // -webkit-backdrop-filter: blur(40px);
+    // box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+    // border: 1px solid rgba(255, 255, 255, 0.1);
+    // color: white;
 }
-#about{
-    background-color: #142426;
+.home{
+    background-color: $midnightBlueGrey;
 }
-#services{
-    background-color: #284040;
+.about{
+    background-color: $darkGraphite;
 }
-#contact{
-    background-color: #798C89;
+.services{
+    background-color: $pewter;
 }
-#c1,#c2,#c3,#c4{
-    background-color: #F5F5F5;
+
+.contact{
+    background-color: $smokyAsh;
 }
