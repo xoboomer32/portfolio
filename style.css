@@ -6,214 +6,97 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: auto;
 }
 
 @font-face {
   font-family: raleway;
-  src: url(../font/Raleway-VariableFont_wght.ttf);
+  src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
 }
 .navitems {
   list-style-type: none;
 }
-
-.navlink {
-  font-size: 20px;
-  color: white;
-}
-
-.menuic {
-  font-size: 20px;
-  color: white;
-}
-
-.title, .dashboard, .prem, .trois, .deux, .title2 {
-  font-family: raleway;
+.navitems i {
   font-size: 30px;
+}
+.navitems .navlink {
+  text-decoration: none;
+  font-family: raleway;
+  font-size: 20px;
+  color: white;
+}
+
+.title {
+  font-family: raleway;
+  font-size: 60px;
   font-weight: bold;
 }
 
-.title2 {
-  font-size: 25px;
-}
-
-.prem, .trois, .deux {
-  font-size: 15px;
-  color: white;
-}
-
-.taskName {
-  font-size: 20px;
-}
-
-.purpose {
-  font-size: 25px;
-}
-
-.percentage {
-  font-size: 20px;
-}
-
-.dashboard {
-  font-size: 25px;
-}
-
 .sidebar {
-  width: 60px;
-  height: 96vh;
-  border-radius: 33px 0;
+  width: 250px;
+  height: 100vh;
   position: fixed;
-  left: 20px;
-  top: 20px;
-  padding: 20px 0px 5px 0px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   justify-items: center;
   align-items: center;
 }
 
-.navcontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
-.profile {
-  width: 50px;
-  height: 50px;
+.profilePic {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  box-shadow: 1px 1px 10px white;
 }
 
-.section {
+.navitems {
+  margin-top: 60px;
+}
+
+section {
   width: 100%;
   height: 100vh;
+}
+
+.content {
+  width: 83.55%;
+  height: 100vh;
+  margin-left: 250px;
   display: flex;
-  padding: 10px;
-  justify-content: flex-end;
+  flex-direction: column;
   align-items: center;
 }
 
-.contentradius {
-  width: 96%;
-  height: 95vh;
-  border-radius: 0 33px;
-  margin-left: 90px;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-@media (max-width: 768px) {
-  .navcontainer {
-    gap: 25px;
-  }
-}
-
-.contain1 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.prem, .trois, .deux {
-  width: 32%;
-  height: 100%;
-  border-radius: 14px;
-  padding: 20px;
-  position: relative;
-}
-.prem .percentage, .trois .percentage, .deux .percentage {
-  margin: 70px 0 10px 0;
-}
-.prem .progBar, .trois .progBar, .deux .progBar {
-  position: absolute;
-  width: 70%;
-  height: 10px;
-  border-radius: 4px;
-}
-.prem .progBar .progress, .trois .progBar .progress, .deux .progBar .progress {
-  width: 45%;
-  height: 10px;
-  border-radius: 4px;
-  position: absolute;
-}
-
-.contain2 {
-  height: 40%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.proj1, .proj2 {
-  width: 49%;
-  height: 100%;
-  border-radius: 14px;
-  background-color: #1F2933;
-}
-
 .sidebar {
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-.profile {
-  background-image: url(../../image/Man\ icon\ business\ profile\ isolated\ vector\ image\ png.jpg);
+.profilePic {
+  background-image: url(../../image/cfca6b67ad1faac49e491de3f2a5ed83.png);
   background-size: cover;
 }
 
-.contentradius {
-  background-color: #D8D8D8;
+#home {
+  background-color: #06050D;
 }
 
-.home {
-  background-color: #1F2933;
+#about {
+  background-color: #142426;
 }
 
-.about {
-  background-color: #2D2D2D;
+#services {
+  background-color: #284040;
 }
 
-.services {
-  background-color: #373737;
+#contact {
+  background-color: #798C89;
 }
 
-.contact {
-  background-color: #4F4F4F;
-}
-
-.prem, .deux, .trois {
-  background-image: linear-gradient(to bottom right, #FFCB52, #FF7B02);
-}
-
-.deux {
-  background-image: linear-gradient(to bottom right, #c165dd, #5c27fe);
-}
-
-.trois {
-  background-image: linear-gradient(to bottom right, #08c792, #2afeb7);
-}
-
-.quatr {
-  background-image: linear-gradient(to bottom right, #5581f1, #1153fc);
-}
-
-.cinq {
-  background-image: linear-gradient(to bottom right, #1de5e2, #b588f7);
-}
-
-.progBar {
-  background-color: #222831;
-}
-.progBar .progress {
-  background-color: white;
+#c1, #c2, #c3, #c4 {
+  background-color: #F5F5F5;
 }
 
 /*# sourceMappingURL=style.css.map */
