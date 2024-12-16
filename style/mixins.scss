@@ -18,6 +18,3 @@
         @warn "Unknown breakpoint: #{$breakpoint}";
     }
 }
-@mixin linear-gradient ($color1, $color2){
-    background-image: linear-gradient(to bottom right, $color1, $color2);
-}
