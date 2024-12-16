@@ -1,11 +1,39 @@
 @font-face {
     font-family: raleway;
-    src: url(../font/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(../font/Raleway-VariableFont_wght.ttf);
 }
 .navlink{
     font-size: 20px;
     color: white;
 }
 .menuic{ 
-    @extend .navlink;
+    font-size: 20px;
+    color: white;
+}
+.title{
+    font-family: raleway;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title2{
+    @extend .title;
+    font-size: 25px;
+}
+.prem{
+    @extend .title;
+    font-size: 15px;
+    color: white;
+}
+.taskName{
+    font-size: 20px;
+}
+.purpose{
+    font-size: 25px;
+}
+.percentage{
+    font-size: 20px;
+}
+.dashboard{
+    @extend .title;
+    font-size: 25px;
 }

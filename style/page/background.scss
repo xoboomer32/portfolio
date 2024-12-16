@@ -30,3 +30,24 @@
 .contact{
     background-color: $smokyAsh;
 }
+.prem{
+    @include linear-gradient (#FFCB52,#FF7B02);
+}
+.deux{
+    @include linear-gradient (#c165dd,#5c27fe);
+}
+.trois{
+    @include linear-gradient (#08c792,#2afeb7);
+}
+.quatr{
+    @include linear-gradient (#5581f1,#1153fc);
+}
+.cinq{
+    @include linear-gradient (#1de5e2,#b588f7);
+}
+.progBar{
+    background-color: $obsidian;
+    .progress{
+        background-color: white;
+    }
+}
